@@ -5,6 +5,7 @@ num1 = random.randint(1, 10)
 print(num1)
 
 # Генерация случайного вещественного числа от 0 до 1
+
 num2 = random.random()
 print(num2)
 

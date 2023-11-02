@@ -12,7 +12,7 @@ files:
       offset: 38
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "[int(digit) for digit in str(number)]"
   - offset: 113
     length: 35
@@ -22,7 +22,7 @@ files:
       offset: 113
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: sum(list_digits))
   - offset: 155
     length: 42
@@ -32,7 +32,7 @@ files:
       offset: 155
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "sum([even_digit for even_digit in list_digits if even_digit\
       \ % 2 == 0]))"
   - offset: 204
@@ -43,7 +43,7 @@ files:
       offset: 204
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: len(list_digits))
   - offset: 245
     length: 36
@@ -53,7 +53,7 @@ files:
       offset: 245
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: min(list_digits))
   - offset: 288
     length: 59
@@ -63,7 +63,7 @@ files:
       offset: 288
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "list_digits[0] - list_digits[-1])"
   text: |
     number = 2342354235235
@@ -88,5 +88,5 @@ files:
     2
     -3
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

@@ -14,7 +14,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def get_sentences_list(str_words):
           sentences_list = []
@@ -39,5 +39,5 @@ files:
   text: |
     ['Здесь много разных слов', 'Возможно и много повторений']
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

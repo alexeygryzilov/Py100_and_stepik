@@ -14,14 +14,14 @@ if __name__ == '__main__':
     exists_file(file)
 
     print(f"Создание и запись в файл {file} ...")
-    with open(file, "w") as f:  # TODO Добавьте аргумент encoding='utf-8'
+    with open(file, "w", encoding='utf-8') as f:  # TODO Добавьте аргумент encoding='utf-8'
         f.write("Hello, World!\n")  # Вручную нужно добавлять символ переноса строки, чтобы разделить файл на строки
         f.write("Python - замечательный язык программирования.\n")
         f.write("Работа с файлами в Python..\n")
     exists_file(file)
 
     print(f"Построчное чтение файла {file} ...")
-    with open(file, "r") as f:
+    with open(file, "r",encoding='utf-8') as f:
         for line in f:
             # Метод строки rstrip удаляет непечатаемые символы справа, чтобы не было двух символов переноса строки
             print(line.rstrip())   # Можно заменить на print(line, end="")

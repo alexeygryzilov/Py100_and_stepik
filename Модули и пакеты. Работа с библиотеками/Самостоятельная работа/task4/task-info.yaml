@@ -11,7 +11,7 @@ files:
       offset: 331
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       eagle_count = 0
           tails_count = 0
@@ -31,7 +31,7 @@ files:
       offset: 394
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       freq = min(eagle_count, tails_count) / max(eagle_count, tails_count)
           list_freq.append(freq)
@@ -56,6 +56,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

@@ -3,10 +3,9 @@ def generate_squares(n):
     Функция для генерации списка квадратов целых чисел от 0 до N.
     """
     # TODO заменить на list comprehension
-    squares = []
-    for i in range(n+1):
-        squares.append(i**2)
+    squares = [i ** 2 for i in range(n + 1)]
     return squares
+
 
 
 if __name__ == '__main__':

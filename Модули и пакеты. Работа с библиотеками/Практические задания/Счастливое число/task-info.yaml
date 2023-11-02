@@ -12,7 +12,7 @@ files:
       offset: 43
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if num <= 0:
               raise ValueError("Число не является положительным :(")
@@ -26,7 +26,7 @@ files:
       offset: 109
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       list_digits = [int(digit) for digit in str(num)]
           return sum(list_digits[:3]) == sum(list_digits[3:])
@@ -53,5 +53,5 @@ files:
     False
     False
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

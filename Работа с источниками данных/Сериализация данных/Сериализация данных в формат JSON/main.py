@@ -1,8 +1,8 @@
 import json
 
 filename = 'output.json'
-indent = None  # TODO Подставьте любое целое число
-ensure_ascii = True  # TODO Замените на значение True
+indent = 3 # TODO Подставьте любое целое число
+ensure_ascii = False  # TODO Замените на значение True
 
 data = {
     'name': 'John',

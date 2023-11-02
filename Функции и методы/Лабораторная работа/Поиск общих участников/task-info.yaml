@@ -21,7 +21,7 @@ files:
           common_participants.sort()
 
           return common_participants
-  - offset: 156
+  - offset: 353
     length: 65
     placeholder_text: '# TODO Провеьте работу функции с разделителем отличным от запятой'
     initial_state:
@@ -117,6 +117,6 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 solution_hidden: true

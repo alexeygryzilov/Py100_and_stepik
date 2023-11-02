@@ -1,5 +1,5 @@
-heads = 35  # Общее количество голов
-legs = 94  # Общее количество лап
+heads = 36  # Общее количество голов
+legs = 98  # Общее количество лап
 
 for rabbits in range(heads + 1):
     for pheasants in range(heads + 1):

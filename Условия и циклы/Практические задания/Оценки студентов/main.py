@@ -7,4 +7,7 @@ students = [
     {"name": "Оля", "grade": 4},
 ]
 
-# TODO Распечатать имена студентов с оценками выше тройки
+
+for student in students:
+    if student['grade'] >3:
+        print(f"{student['name']}. Оценка: {student['grade']}")

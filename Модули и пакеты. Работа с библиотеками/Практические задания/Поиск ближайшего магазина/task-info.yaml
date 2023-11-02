@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 316
+    length: 323
     placeholder_text: |-
       # TODO Отрефакторите код
       def get_distance(shop_point: tuple[float, float]) -> float:
@@ -18,7 +18,7 @@ files:
       length: 316
       offset: 0
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       def get_nearest_shop(shop_points: list[tuple]) -> tuple:
@@ -102,5 +102,5 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

@@ -31,4 +31,4 @@ with open(filename, 'r') as file:
 
     # Чтение данных
     for row in reader:
-        print(row['First Name'], row['Last Name'], row['Age'])
+        print(f"{row['First Name']:10} {row['Last Name']:10} {row['Age']}")

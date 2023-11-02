@@ -36,6 +36,8 @@ files:
     else:
         print("Директория \"data\" не существует.")
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: "Thu, 02 Nov 2023 11:15:40 UTC"
 record: -1
 post_submission_on_open: true

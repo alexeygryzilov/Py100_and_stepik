@@ -11,7 +11,7 @@ files:
       offset: 11
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: or
   - offset: 61
     length: 3
@@ -21,7 +21,7 @@ files:
       offset: 61
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: and
   text: |
     print(True ... False)  # ожидаемый результат True
@@ -36,5 +36,5 @@ files:
     True
     False
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

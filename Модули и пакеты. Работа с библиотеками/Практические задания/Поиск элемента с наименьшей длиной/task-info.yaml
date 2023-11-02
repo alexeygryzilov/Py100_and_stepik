@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def get_shortest_word(words: list[str]) -> str:
           return min(words, key=len)
@@ -23,7 +23,7 @@ files:
       offset: 161
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: get_shortest_word(words_list)
   text: |
     # TODO  Напишите функцию get_shortest_word
@@ -42,5 +42,5 @@ files:
   text: |
     kiwi
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

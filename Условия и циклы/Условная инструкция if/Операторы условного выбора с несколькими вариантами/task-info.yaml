@@ -12,7 +12,7 @@ files:
       offset: 678
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       else:
           print("Некорректный номер месяца")  # Если month не соответствует ни одному списку, выводим ошибку
@@ -44,5 +44,5 @@ files:
   text: |
     Некорректный номер месяца
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

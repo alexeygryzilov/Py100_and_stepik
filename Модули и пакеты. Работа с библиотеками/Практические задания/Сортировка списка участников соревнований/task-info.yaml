@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def sort_participants(participants: list[dict]) -> list[dict]:
           return sorted(participants, key=lambda item: item["name"])
@@ -53,5 +53,5 @@ files:
   text: |
     [{'name': 'Кирилл', 'age': 52}, {'name': 'Маша', 'age': 14}, {'name': 'Оля', 'age': 43}, {'name': 'Петя', 'age': 36}, {'name': 'Саша', 'age': 27}]
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

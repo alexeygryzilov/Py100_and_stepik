@@ -1,4 +1,7 @@
 # TODO Напишите функцию sort_participants
+def sort_participants(list_) -> list:
+    sorted_list = sorted(list_, key=lambda p: p['name'])
+    return sorted_list
 
 
 if __name__ == "__main__":

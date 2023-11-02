@@ -20,15 +20,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 72
-    length: 45
+  - offset: 71
+    length: 99
     placeholder_text: "...  # TODO построчно записать лесенку в файл"
     initial_state:
       length: 45
       offset: 72
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       with open(OUTPUT_FILE, "w") as f:
               for count_asterisk in range(1, 11):
@@ -51,5 +51,11 @@ files:
             for line in file:
                 print(line, end="")
   learner_created: false
-status: Unchecked
+- name: input.txt
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Nov 2023 12:18:10 UTC"
 record: -1

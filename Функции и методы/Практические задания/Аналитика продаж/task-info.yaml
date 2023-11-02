@@ -12,7 +12,7 @@ files:
       offset: 43
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       total = 0
           for sale in sales_list:
@@ -28,7 +28,7 @@ files:
       offset: 359
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: calculate_total_sales(sales_data)
   text: |
     def calculate_total_sales(sales_list):
@@ -52,5 +52,5 @@ files:
   text: |
     Общая стоимость проданных товаров: 14500
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

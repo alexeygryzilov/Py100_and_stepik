@@ -1,5 +1,8 @@
 def exists_student_by_lastname(students, lastname):
-    ...  # TODO Напишите проверку студента с заданной фамилией
+    for entry in students:
+        lastname_ = entry.get('фамилия')
+        return lastname_ is lastname
+      # TODO Напишите проверку студента с заданной фамилией
 
 
 students_list = [

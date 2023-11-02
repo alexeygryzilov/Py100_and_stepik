@@ -1,40 +1,7 @@
 type: edu
 files:
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 111
-    length: 127
-    placeholder_text: |-
-      # TODO заменить на list comprehension
-          squares = []
-          for i in range(n+1):
-              squares.append(i**2)
-          return squares
-    initial_state:
-      length: 127
-      offset: 111
-    initialized_from_dependency: false
-    selected: false
-    status: Unchecked
-    encrypted_possible_answer: "return [i ** 2 for i in range(n+1)]"
-  text: |
-    def generate_squares(n):
-        """
-        Функция для генерации списка квадратов целых чисел от 0 до N.
-        """
-        # TODO заменить на list comprehension
-        squares = []
-        for i in range(n+1):
-            squares.append(i**2)
-        return squares
-
-
-    if __name__ == '__main__':
-        # Проверка работы функции
-        print(generate_squares(5))  # [0, 1, 4, 9, 16, 25]
-        print(generate_squares(10))  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-        print(generate_squares(0))  # [0]
+- name: __init__.py
+  visible: false
   learner_created: false
 - name: tests/test_task.py
   visible: false
@@ -61,7 +28,7 @@ files:
     class TestCase(unittest.TestCase):
         def test_contains_list_comprehension(self):
             filepath = "task.py"
-            with open(filepath) as f:
+            with open(filepath, encoding="utf-8") as f:
 
                 assert contains_list_comprehension(f.read()) is True, (
                     'Проверьте, что в функции `generate_squares` используется list comprehension.'
@@ -75,11 +42,44 @@ files:
                 'Проверьте, что в функция `generate_squares` верно вычисляет квадраты целых чисел.'
             )
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 111
+    length: 102
+    placeholder_text: |-
+      # TODO заменить на list comprehension
+          squares = []
+          for i in range(n+1):
+              squares.append(i**2)
+          return squares
+    initial_state:
+      length: 127
+      offset: 111
+    initialized_from_dependency: false
+    selected: true
+    status: Unchecked
+    encrypted_possible_answer: "return [i ** 2 for i in range(n+1)]"
+  text: |
+    def generate_squares(n):
+        """
+        Функция для генерации списка квадратов целых чисел от 0 до N.
+        """
+        # TODO заменить на list comprehension
+        squares = []
+        for i in range(n+1):
+            squares.append(i**2)
+        return squares
+
+
+    if __name__ == '__main__':
+        # Проверка работы функции
+        print(generate_squares(5))  # [0, 1, 4, 9, 16, 25]
+        print(generate_squares(10))  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+        print(generate_squares(0))  # [0]
+  learner_created: false
+status: Solved
 record: -1

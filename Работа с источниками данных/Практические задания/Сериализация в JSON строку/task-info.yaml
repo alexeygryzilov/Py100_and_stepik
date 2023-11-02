@@ -11,18 +11,18 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: import json
-  - offset: 90
-    length: 64
+  - offset: 101
+    length: 61
     placeholder_text: "...  # TODO Сериализуйте python объект в json строку с отст\
       упами"
     initial_state:
       length: 64
       offset: 90
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "return json.dumps(python_obj, indent=4)"
   text: |
     # TODO Импортируйте модуль json
@@ -62,5 +62,8 @@ files:
         "15": "0xf"
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Nov 2023 12:58:47 UTC"
 record: -1

@@ -3,7 +3,7 @@ numbers.sort()  # sort метод сортировки списка
 print(numbers)  # [1, 2, 3, 4, 5]
 
 text = "hello world"
-uppercase_text = text.upper()
+uppercase_text = text.capitalize()
 
 print(text)  # hello world
 print(uppercase_text)  # HELLO WORLD

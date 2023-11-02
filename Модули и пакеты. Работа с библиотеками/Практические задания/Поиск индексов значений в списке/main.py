@@ -1,6 +1,19 @@
+
+from typing import List
 # TODO написать функцию index
-def index():
-    ...
+def index(list_, item) -> list[int]:
+    index = 0
+    result = []
+    for value in list_:
+        if value == item:
+            result.append(index)
+        index += 1
+    if result:
+        return result
+    else:
+        raise ValueError('Такого элемента в списке нет!')
+
+
 
 
 if __name__ == '__main__':

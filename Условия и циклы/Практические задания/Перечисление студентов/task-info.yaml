@@ -11,7 +11,7 @@ files:
       offset: 59
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       for student in list_students:
           print(student)
@@ -32,5 +32,5 @@ files:
     Кирилл
     Оля
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

@@ -1,6 +1,11 @@
 # TODO реализовать функцию
-def insert():
-    ...
+def insert(list_, value, index = 0):
+    list_1 = list_[:index]
+    list_2 = [value]
+    list_3 = list_[value:]
+    list_result = list_1 + list_2 + list_3
+    return list_result
+
 
 
 print(insert([1], value=0))  # [0, 1]

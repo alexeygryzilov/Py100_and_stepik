@@ -11,7 +11,7 @@ files:
       offset: 139
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "[color.upper() for color in colors]"
   text: |
     def convert_to_uppercase(colors: list[str]) -> list[str]:
@@ -32,5 +32,5 @@ files:
   text: |
     ['#FF0000', '#00FF00', '#0000FF']
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

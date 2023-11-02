@@ -1,6 +1,6 @@
 # Поиск самого длинного слова
 words = ["apple", "banana", "orange", "watermelon"]
-longest_word = max(words, key=len)
+longest_word = max(words, key=lambda w: len(w))
 print(longest_word)  # "watermelon"
 
 # Поиск самого младшего человека
@@ -8,6 +8,7 @@ people = [
     {"name": "John", "age": 25},
     {"name": "Emily", "age": 30},
     {"name": "Adam", "age": 20}
+
 ]
 
 youngest_person = min(people, key=lambda p: p["age"])

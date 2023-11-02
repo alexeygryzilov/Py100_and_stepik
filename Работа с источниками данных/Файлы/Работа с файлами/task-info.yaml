@@ -11,7 +11,7 @@ files:
       offset: 351
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "with open(file, \"w\", encoding='utf-8') as f:"
   text: |
     import os
@@ -45,6 +45,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: "Thu, 02 Nov 2023 11:22:14 UTC"
 record: -1
 post_submission_on_open: true

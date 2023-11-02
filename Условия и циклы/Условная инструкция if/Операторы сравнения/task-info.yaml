@@ -12,7 +12,7 @@ files:
       offset: 22
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 > 10)
   - offset: 104
     length: 60
@@ -23,7 +23,7 @@ files:
       offset: 104
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 == 10)
   - offset: 186
     length: 60
@@ -34,7 +34,7 @@ files:
       offset: 186
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 != 5)
   - offset: 289
     length: 60
@@ -45,7 +45,7 @@ files:
       offset: 289
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 <= 10)
   - offset: 381
     length: 60
@@ -56,7 +56,7 @@ files:
       offset: 381
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 <= 5)
   - offset: 462
     length: 60
@@ -67,7 +67,7 @@ files:
       offset: 462
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 == 5)
   text: |
     print("5 больше 10?", ...)  # TODO записать условие с помощью операторов сравнения
@@ -94,5 +94,5 @@ files:
     5 меньше или равно 5? True
     5 равно 5? True
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
